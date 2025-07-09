@@ -1,0 +1,120 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
+
+
+
+ /* Sheard style */
+ .text-primary{
+    color: #FD6E0A;
+ }
+ .dark-2{
+    color: #474747;
+ }
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px ;
+    border: none;
+
+}
+.section-tittle{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.secondary-bg{
+    background-color: #FFF8F3 ;
+}
+
+/* Nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 38px 0 230px;
+}
+.banner-content{
+    max-width: 580;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner-tittle{
+    font-size: 85px;
+    font-weight: 800;
+
+
+}
+.banner-pic{
+    width: 580px;
+
+}
+/* About style */
+.about{
+    border-radius: 10px;
+     padding: 131px 156px;
+     text-align: center;
+     margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+.item-description{
+    font-weight: 600;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+   }
+

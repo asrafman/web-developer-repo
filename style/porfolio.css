@@ -161,3 +161,6 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 
 }
+footer{
+    margin-top: 60px;
+}
